@@ -132,3 +132,98 @@ var adverbio = "basura";
 var palabrasEnBlanco = "El " + sustantivo + " " + accion + " " + adverbio + " en la calle";
 palabrasEnBlanco // El perro come basura en la calle
 ```
+
+## Arreglos
+
+```js
+var familia = [“Hunter”, “Tierra”, “ Smoke”, “Isa”];
+var edades = [3, 7, 2, 30];
+```
+
+## Arreglos anidados
+
+```js
+var familia = [[“hunter”, 3], [“Tierra”, 7], [“somke”, 2], [“Isa”, 30]];
+```
+
+## Acceder a los elementos de un arreglo 
+
+```js
+var familia =  [“Hunter”, “Tierra”, “ Smoke”, “Isa”];
+familia[1] // La respuesta será “Tierra” 
+```
+
+## Modificar los datos de un arreglo 
+
+```js
+var familia = [“Hunter”, “Tierra”, “ Smoke”, “Isa”];
+familia[3] = “Isabel”;
+//El arreglo queda:[“Hunter”, “Tierra”, “ Smoke”, “Isabel”]
+```
+
+## Acceder a arreglos multidimensionales
+
+```js
+var familia = [[“hunter”, 3], [“Tierra”, 7], [“somke”, 2], [“Isa”, 30]];
+familia[3][0] // El resultado es “Isa”
+```
+
+## Método .push()
+
+```js
+var colores = [“rojo”, “negro”, “verde”, “morado”];
+colores.push(“amarillo”);
+colores = [“rojo”, “negro”, “verde”, “morado”, “amarillo”] // Sería el nuevo arreglo
+```
+
+## Método .pop()
+
+```js
+var colores = [“rojo”, “negro”, “verde”, “morado”];
+colores.pop();
+colores = [“rojo”, “negro”, “verde”] // Sería el nuevo arreglo
+```
+
+## Método .shift()
+
+```js
+var colores = [“rojo”, “negro”, “verde”, “morado”];
+colores.shift();
+colores =  [“negro”, “verde”, “morado”] // Sería el nuevo arreglo
+```
+
+## Método .unshift()
+
+```js
+var colores = [“rojo”, “negro”, “verde”, “morado”];
+colores.unshift(“amarillo”);
+colores =  [“amarillo”, “rojo”, “negro”, “verde”, “morado”] // Sería el nuevo arreglo
+```
+
+## Lista de compras 
+
+```js
+var lista = [[“Verduras”, 11], [“frutas”, 10], [“quesos”, 5]];
+
+console.log(“voy a comprar ” + lista[1][0] + “ y algunos “ + lista[2][0]) // ‘Voy a comprar frutas y algunos quesos
+```
+
+## Funciones
+
+```js
+function tengoHambre() {
+console.log(“Quiero un sanwichito”);
+}
+
+tengoHambre();
+```
+
+## Párametros y Argumentos
+
+```js
+function sumar(a, b) {
+var suma = a + b;
+console.log(“El resultado de ” + a + “+” + b + “ es: ”+ suma);
+}
+
+sumar(2, 8);
