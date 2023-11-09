@@ -319,30 +319,152 @@ console.log("Después: " + JSON.stringofy(miArreglo));
 "T" < "Z"; // true
 ```
 
-## Ambito global
+## Menor o igual que 
+
+``` js
+5 <= 8; // true
+2 <= 2; //true
+```
+## Operadores lógicos AND
+
+``` js
+(2 < 8) && (8 < 9); // true (v && v)
+(2 > 8) && (8 < 9); // falsa (f && v / v && f)
+(2 > 8) && (8 > 9); // false (f && f)
+
+
+```
+
+## Operadores lógicos OR
+
+``` js
+(2 < 8) || (8 < 9); // true (v || v)
+(2 > 8) || (8 < 9); // true ( v || f / f || v)
+(2 > 8) || (8 > 9); // false (f || f)
+
+```
+
+## Operadores lógicos NOT
+
+``` js
+!true; // false
+!false; // true
+(!(2 < 5)); // false
+(!(2 > 5)); // true
+```
+
+## Sentencias condicionales
+
+``` js
+if (2 > 0){
+console.log("la condición es verdadera");
+}
+```
+
+# Sentencia else
+
+``` js
+if (2 > 0){
+console.log("la condición es verdadera");
+} else {
+   console.log("la condición es verdadera") 
+}
+```
+
+# Sentencia else if
+
+``` js
+function clasificarValor(valor){
+    if (valor % 2 == 0){
+        console.log("divisible entre 2");
+    } else if (valor % 3 == o) {
+        console.log("divisible entre 3");
+    } else {
+        console.log("no es divisible entre las opciones")
+    }
+}
+```
+
+# Encadenar sentencias if else
+
+``` js
+function IMC(indiceMasaCorporal){
+    if (indiceMasaCorporal < 18.5){
+        console.log("bajo peso");
+    } else if (indiceMasaCorporal <= 24.9) {
+        console.log("normal");
+    } else if (indiceMasaCorporal <= 29.9) {
+        console.log("sobrepeso");
+    } else {
+        console.log("obeso");
+    }
+}
+```
+
+# Sentencia switch
+
+``` js
+function clasificarValor(valor){
+    var respuesta;
+    switch (valor ){
+        case 1: 
+            respuesta = "alpha";
+            break;
+        case 2:
+            respuesta "beta";
+            break;
+        case 3:
+            respuesta = "gamma";
+    }    
+    retunr respuesta;
+}
+
+console.log(clasificarValor(3)); // R "gamma"
+```
+
+# Ambito global
 
 ``` js
 
 ```
-## Ambito global
+
+# Ambito global
 
 ``` js
 
 ```
 
-## Ambito global
+# Ambito global
 
 ``` js
 
 ```
 
-## Ambito global
+# Ambito global
 
 ``` js
 
 ```
 
-## Ambito global
+# Ambito global
+
+``` js
+
+```
+
+# Ambito global
+
+``` js
+
+```
+
+# Ambito global
+
+``` js
+
+```
+
+# Ambito global
 
 ``` js
 
