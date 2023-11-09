@@ -227,3 +227,124 @@ console.log(“El resultado de ” + a + “+” + b + “ es: ”+ suma);
 }
 
 sumar(2, 8);
+```
+
+## Ambito global
+
+``` js
+
+```
+
+## Ambito local
+
+``` js
+
+```
+
+## retornar un valor 
+
+``` js
+function sumar(a, b){
+    return a + b;
+}
+
+sumar(5 + 2); R// 7
+
+```
+
+## Permanece en la fila
+
+``` js
+function proximoEnLaFila(arr, elem){
+    arr.push(elem);
+    return arr.shift();
+}
+var miArreglo = [1, 2, 3, 4, 5];
+
+console.log("Antes: " + JSON.stringify(miArreglo));
+console.log(proximoEnLaFila(miArreglo, 6));
+console.log("Después: " + JSON.stringofy(miArreglo));
+```
+
+## Operador de igualdad
+
+``` js
+9 == 9; // true
+9 == "9"; // true
+
+```
+
+## Operador de igualdad estricta
+
+``` js
+9 === 9; //true
+9 === "9" // false
+
+```
+## Operador de desigualdad
+
+``` js
+9 != 9; //false
+9 != 2; //true
+"isa" != isabel; // true
+"1" != 1; //false
+```
+
+## Operador de desigualdad estricta
+
+``` js
+1 !== "1"; //true
+1 !== 1; //false
+```
+## Mayor que
+
+``` js
+6 < 8; //true
+"b" > "a"; // true
+"acb" > "abc"; //true
+"ab" > "a"; // true (tienen mas caracteres)
+```
+
+## Mayor o igual que
+
+``` js
+5 >= 5; // true
+
+```
+## Menor que 
+
+``` js
+2 < 8; //true
+1 < 97; //false
+"T" < "Z"; // true
+```
+
+## Ambito global
+
+``` js
+
+```
+## Ambito global
+
+``` js
+
+```
+
+## Ambito global
+
+``` js
+
+```
+
+## Ambito global
+
+``` js
+
+```
+
+## Ambito global
+
+``` js
+
+```
+
